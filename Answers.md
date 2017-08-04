@@ -2,8 +2,8 @@
 
 Here are 4 Objective-C translations of the same code:
 
-<b>-- https://gist.github.com/anonymous/0b2175c5bc5c2bf4e272b0a78f999158</b>
--- https://gist.github.com/AhmetAbak/550647df95298863dbb39b7bb978b7f6
+- https://gist.github.com/anonymous/0b2175c5bc5c2bf4e272b0a78f999158
+- https://gist.github.com/AhmetAbak/550647df95298863dbb39b7bb978b7f6
 - https://gist.github.com/vian/bf238a869764c79e818db4b8d8521265
 - https://gist.github.com/ezavalko/cf85ee5a55b182c0288b2ec8aab35909
 
@@ -20,7 +20,7 @@ Also, assign each translation a score from 1-4:
 
 Finally, rank the gists from best to worst.
 
-=====================================================================================================================================
+==============================================================================
 
 
 
@@ -44,7 +44,7 @@ Identify any changes that would make our content better for our Objective-C user
  
 https://blog.codinghorror.com/new-programming-jargon/
 
-=====================================================================================================================================
+==============================================================================
 
 
 
@@ -69,6 +69,10 @@ https://blog.codinghorror.com/new-programming-jargon/
 
 Explain briefly and clearly.
 
+==============================================================================
+
+** Method **  depends on object but **Function** is not.
+
 
 ## 4. Answer these questions about strings
 
@@ -83,6 +87,11 @@ Questions:
 1. Is the first paragraph accurate? Would building up a string one character at a time be O(n^2) in your language? Or does your language have an O(1) append-character-to-string operation?
 1. Does your language have a particular word/phrase for "string slicing" – how we grab the subset of the string. Is it "string slicing" or something else?
 
+==============================================================================
+
+
+
+
 
 ## 5. Are there things you'd change about our style guide?
 
@@ -90,9 +99,20 @@ https://gist.github.com/kaplanoah/71446132717d9c83350e06dad91a2981
 
 Give one or two examples, if you have any, and explain them briefly.
 
+==============================================================================
+
+
+
 
 ## 6. Do you know big O notation?
 
 You should know big O notation well enough to understand the examples here:
 
 https://www.interviewcake.com/big-o-notation-time-and-space-complexity
+
+==============================================================================
+
+
+
+
+

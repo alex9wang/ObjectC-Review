@@ -21,7 +21,7 @@ Also, assign each translation a score from 1-4:
 Finally, rank the gists from best to worst.
 
 ==============================================================================
-###### In 3th file, declaration of function is wrong.
+In 3th file, declaration of function is wrong.
 -- Original code
 	NSInteger ALGHighestProductOf3FromIntArray(NSArray *arrayOfInts) {
 
@@ -29,11 +29,14 @@ Finally, rank the gists from best to worst.
 	 + (NSInteger) ALGHighestProductOf3FromIntArray: (NSArray *) arrayOfInts {
 
 4th file has issue as following code.
+
 **Original code**
+
      for (int i = 0; i < arrayOfInts.count; i++){
         NSNumber * number = [arrayOfInts objectAtIndex:0];
 
 **Updated code**
+
      for (int i = 2; i < arrayOfInts.count; i++){
        NSNumber * number = [arrayOfInts objectAtIndex:i];
 
@@ -43,6 +46,7 @@ Finally, rank the gists from best to worst.
 3th developer doesn't know obj-c.
 
 **Ranking**
+
 * 3. https://gist.github.com/anonymous/0b2175c5bc5c2bf4e272b0a78f999158
 * 1. https://gist.github.com/AhmetAbak/550647df95298863dbb39b7bb978b7f6
 * 4. https://gist.github.com/vian/bf238a869764c79e818db4b8d8521265

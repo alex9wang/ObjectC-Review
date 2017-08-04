@@ -32,10 +32,12 @@ In 3th file, declaration of function is wrong..
 	 + (NSInteger) ALGHighestProductOf3FromIntArray: (NSArray *) arrayOfInts {
 
 4th file has issue as following code.
+
 **Original code**
 
      for (int i = 0; i < arrayOfInts.count; i++){
         NSNumber * number = [arrayOfInts objectAtIndex:0];
+
 **Updated code**
 
      for (int i = 2; i < arrayOfInts.count; i++){
@@ -128,6 +130,9 @@ https://gist.github.com/kaplanoah/71446132717d9c83350e06dad91a2981
 Give one or two examples, if you have any, and explain them briefly.
 
 ==============================================================================
+
+Your document is good.
+
 
 
 

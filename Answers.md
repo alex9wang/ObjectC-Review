@@ -21,9 +21,32 @@ Also, assign each translation a score from 1-4:
 Finally, rank the gists from best to worst.
 
 ==============================================================================
+In 3th file, declaration of function is wrong.
+- Original code
+	> NSInteger ALGHighestProductOf3FromIntArray(NSArray *arrayOfInts) {
 
+- Updated code
+	> + (NSInteger) ALGHighestProductOf3FromIntArray: (NSArray *) arrayOfInts {
 
+4th file has issue as following code.
+- Original code
+    > for (int i = 0; i < arrayOfInts.count; i++){
+       > NSNumber * number = [arrayOfInts objectAtIndex:0];
 
+- Updated code
+    > for (int i = 2; i < arrayOfInts.count; i++){
+      > NSNumber * number = [arrayOfInts objectAtIndex:i];
+
+2nd developer has clear knowledge about obj-c.
+4th developer has issues in the source code.
+1th developer knows obj-c, but he is not perfect.
+3th developer doesn't know obj-c.
+
+# Ranking
+- 3. https://gist.github.com/anonymous/0b2175c5bc5c2bf4e272b0a78f999158
+- 1. https://gist.github.com/AhmetAbak/550647df95298863dbb39b7bb978b7f6
+- 4. https://gist.github.com/vian/bf238a869764c79e818db4b8d8521265
+- 2. https://gist.github.com/ezavalko/cf85ee5a55b182c0288b2ec8aab35909
 
 
 ## 2. Read through this content:
@@ -71,7 +94,7 @@ Explain briefly and clearly.
 
 ==============================================================================
 
-** Method **  depends on object but **Function** is not.
+**Method**  depends on object but **Function** is not.
 
 
 ## 4. Answer these questions about strings

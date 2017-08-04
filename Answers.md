@@ -21,11 +21,14 @@ Also, assign each translation a score from 1-4:
 Finally, rank the gists from best to worst.
 
 ==============================================================================
-In 3th file, declaration of function is wrong.
--- Original code
+In 3th file, declaration of function is wrong..
+
+**Original code**
+
 	NSInteger ALGHighestProductOf3FromIntArray(NSArray *arrayOfInts) {
 
--- Updated code
+**Updated code**
+
 	 + (NSInteger) ALGHighestProductOf3FromIntArray: (NSArray *) arrayOfInts {
 
 4th file has issue as following code.
@@ -47,10 +50,10 @@ In 3th file, declaration of function is wrong.
 
 **Ranking**
 
-* 3. https://gist.github.com/anonymous/0b2175c5bc5c2bf4e272b0a78f999158
-* 1. https://gist.github.com/AhmetAbak/550647df95298863dbb39b7bb978b7f6
-* 4. https://gist.github.com/vian/bf238a869764c79e818db4b8d8521265
-* 2. https://gist.github.com/ezavalko/cf85ee5a55b182c0288b2ec8aab35909
+* **3**. https://gist.github.com/anonymous/0b2175c5bc5c2bf4e272b0a78f999158
+* **1**. https://gist.github.com/AhmetAbak/550647df95298863dbb39b7bb978b7f6
+* **4**. https://gist.github.com/vian/bf238a869764c79e818db4b8d8521265
+* **2**. https://gist.github.com/ezavalko/cf85ee5a55b182c0288b2ec8aab35909
 
 
 ## 2. Read through this content:
